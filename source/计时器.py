@@ -206,7 +206,7 @@ def start_pygame_window():
             countdownText = "计时：00:00:00"
             countdown = countdownFont.render(countdownText, True, red, white)
             titleSize = int(tk.Tk().winfo_screenwidth() / scale_input(4))
-            titleFont = pygame.font.Font("方正宋刻本秀楷简体.ttf", titleSize)
+            titleFont = pygame.font.Font("ttf\方正宋刻本秀楷简体.ttf", titleSize)
             title = titleFont.render("  考试结束", True, black, white)
             update()
         else:
